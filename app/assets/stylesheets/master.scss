@@ -12,6 +12,13 @@ hr {
   clear: both;
 }
 
+h1 {
+  font-family: baloo;
+  font-weight: bold;
+  font-size: 48px;
+
+}
+
 .circle {
     font-weight: bold;
     font-style: italic;
@@ -43,5 +50,7 @@ hr {
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: baloo;
+    font-weight: bold;
   }
 }
