@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # Bootstrap 4
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
+gem 'simple_form'
 gem 'tether-rails'
 
 # Use Redis adapter to run Action Cable in production
