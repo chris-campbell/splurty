@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Splurty</title>
+    <title>Pulp Quotables</title>
     <%= csrf_meta_tags %>
-
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <header class="row">
-      <div class="col-3">
-        <%= link_to root_path, class: 'logo' do %>
-          <div class="circle">
-            <br />
-            You know
-            <br />
-            you need
-            <br />
-            to code
-          </div>
-        <% end %>
+      <div class="col-6">
+        <%= link_to 'Pulp Quotables', root_path, class: 'logo' %>
       </div>
-      <div class="col col-sm-4 hidden-xs-down solgan">
-        Splurting out unsolicited advice about entrepreneurship since 2016
-      </div>
-      <div class="col-5 links">
+      <div class="col-6 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %> 
         &nbsp;&nbsp; 
@@ -81,7 +70,7 @@
     <div class='container'>
       <div class='row'>
         <div class='col-12 col-sm-6'>
-          <%= link_to "This isn't enough, I need more", root_path, class: 'nextQuote' %>
+          <%= link_to "Next Quote", root_path, class: 'nextQuote' %>
         </div>
         <div class="col-12 col-sm-6 footer-blurb">
           Brooklyn, NY by <a href="devimposter.com">Chris Camp</a><br />

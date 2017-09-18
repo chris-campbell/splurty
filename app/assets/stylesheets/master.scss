@@ -1,11 +1,33 @@
 @import "bootstrap";
 
+body {
+  background: #281F1F;
+}
+
+a {
+  color: #281F1F;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  color: #F59342;
+}
+
+.links a:hover {
+  color: #F59342;
+}
+
+.control-label {
+  color: #A43A2D;
+}
+
 .clear {
   clear: both;
 }
 
 header {
-  border-top: 9px solid #222222;
+  border-top: 9px solid #C87F3D;
+  background: #A43A2D;
 }
 
 hr {
@@ -13,9 +35,10 @@ hr {
 }
 
 h1 {
-  font-family: baloo;
   font-weight: bold;
   font-size: 48px;
+  font-family: 'Carter One', cursive;
+  color: #F59342;
 
 }
 
@@ -28,27 +51,21 @@ h2 span {
 h2 {
   text-align: right;
   font-size: 20px;
+  font-family: 'Carter One', cursive;
+  color: #F59342;
 
 }
 
-.circle {
-    font-weight: bold;
-    font-style: italic;
+p {
+  color: #F59342;
+}
+
+.logo {
+    font-family: 'Carter One', cursive;
     position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
-    margin: 10px 10px;
-    text-align: center;
-    color: #FFF;
-    font-size: 10px;
-    line-height: 16px;
-    cursor: pointer;
-    transform: rotate(11deg);
-    -ms-transform: rotate(11deg); /* IE 9 */
-    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+    top: 6px;
+    font-size: 30px;
+    left: 15px;
 }
 
 .logo:hover {
@@ -63,25 +80,50 @@ h2 {
 .links {
   padding-top: 26px;
   a {
-    color: black;
-    font-size: 25px;
+    color: #281F1F;
+    font-size: 15px;
     border-bottom: 1px solid #dfdfdf;
-    font-family: baloo;
+    font-family: 'Carter One', cursive;
     font-weight: bold;
+    float: right;
+    padding-right: 10px;
+    position: relative;
+    bottom: 8px;
   }
 }
 
+.quote {
+  color: #F59342;
+  font-family: 'Carter One', cursive;
+}
+
+.author {
+    color: #A43A2D;
+    margin-right: 120px;
+    margin-top: 56px;
+}
+
 .nextQuote {
-  color: #f84342;
-  font-family: baloo;
-  font-size: 20px;
+    color: #A43A2D;
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+    position: relative;
+    top: 16px;
 }   
 
+.footer {
+  color: #A43A2D;
+  background: #C87F3D;
+  font-family: 'Roboto', sans-serif;
+}
+
 .footer-blurb {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  text-align: right;
-  font-size: 10px;
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    top: 22px;
 }
 
 .about {
@@ -100,11 +142,16 @@ h2 {
   float: left;
   clear: both;
   text-align: right;
+  color: #A43A2D;
+}
+
+.about-link {
+  color: #A43A2D;
 }
 
 
 @media (max-width: 750px) {
   .footer-blurb {
-    text-align: left;
+    font-size: 14px;
   }
 }
