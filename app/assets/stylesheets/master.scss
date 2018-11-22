@@ -154,6 +154,11 @@ p {
   height: 200px;
 }
 
+.source-code {
+  position: relative;
+  top: -4px;
+}
+
 @media (max-width: 750px) {
   .footer-blurb {
     font-size: 14px;
